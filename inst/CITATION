@@ -1,0 +1,17 @@
+bibentry(
+         bibtype  = "Article",
+         journal  = "Journal of Experimental Marine Biology and Ecology",
+         title    = "Data and source code from: Nitrogen uptake and allocation estimates for Spartina alterniflora and Distichlis spicata",
+         doi      = c("10.5281/zenodo.1226378"),
+         author   = c(
+          person(c("Troy", "D."), "Hill", role = c("aut", "cre"), email = "hill.troy@gmail.com"),
+          person(c("Nathalie", "R."), "Sommer", role = "aut"),
+          person(c("Caroline", "R."), "Kanaskie", role = "aut"),
+          person(c("Emily", "A."), "Santos", role = "aut"),
+          person(c("Autumn", "J."), "Oczkowski", role = "aut")
+         ),
+         organization = "",
+         address      = "Narragansett, RI",
+         year         = "2017",
+         url          = "https://github.com/troyhill/NitrogenUptake2016"
+)
