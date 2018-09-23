@@ -1,13 +1,23 @@
 # NitrogenUptake2016
 
-This repository contains data and source code associated with Hill et al. "Nitrogen uptake and allocation estimates for _Spartina alterniflora_ and _Distichlis spicata_"
 
-[![DOI](https://zenodo.org/badge/103706037.svg)](https://zenodo.org/badge/latestdoi/103706037)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/NitrogenUptake2016)](https://cran.r-project.org/package=NitrogenUptake2016) [![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/NitrogenUptake2016)](https://cran.r-project.org/package=NitrogenUptake2016) [![](http://cranlogs.r-pkg.org/badges/grand-total/NitrogenUptake2016)](https://cran.r-project.org/package=NitrogenUptake2016)
+
+
+
+This repository contains data and source code associated with the manuscript "Nitrogen uptake and allocation estimates for _Spartina alterniflora_ and _Distichlis spicata_" (Hill et al. 2018; DOI: https://doi.org/10.1016/j.jembe.2018.07.006).
 
 
 ## Install the Package 
 
-Install the package from GitHub using devtools:
+Install the package from CRAN:
+
+```r
+install.packages("NitrogenUptake2016")
+```
+
+
+Alternatively, the package can be installed from GitHub using devtools:
 
 ```r
 install.packages("devtools")
@@ -25,7 +35,7 @@ All the data used in this manuscript will then be available:
 ```
 
 
-The manuscript vignette can be read via:
+The manuscript vignettes can be read via:
 
 ```r
 # Journal of Experimental Marine Biology and Ecology (in press)

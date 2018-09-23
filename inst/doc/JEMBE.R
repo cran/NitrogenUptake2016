@@ -1224,9 +1224,9 @@ kable(tbl.final[, 1:6])
 
 ## ----Table 3, results = "asis", echo = FALSE-----------------------------
 
-Species <- c("Total Belowground N uptake (mg N)", "Total Aboveground N uptake (mg N)", 	
-            "Belowground Primary production (g dw)", "Aboveground Primary production (g dw)",	
-            "Denitrification potential (mg N)", 	"Unamended N2O+N2 flux (mg N)")
+Species <- c("Belowground uptake (mg N)", "Aboveground uptake (mg N)", 	
+            "NBPP (g dw)", "NAPP (g dw)",	
+            "DEA (mg N)", 	"Unamended N2O+N2 flux (mg N)")
 Distichlis <- c("62.2 (20.5)",	"115.5*** (7.7)",	"7.2 (5.9)",	"7.5*** (0.7)",	"99.4 (32.4)",	"39.4 (23.0)")
 Spartina <- c("39.6 (7.1)",	"49.2*** (9.8)",	"5.9 (1.3)",	"2.9*** (0.5)",	"65.4 (23.6)",	"8.9 (1.1)"
 )
