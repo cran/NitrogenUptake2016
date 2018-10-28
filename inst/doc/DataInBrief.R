@@ -740,9 +740,8 @@ t.test(tot_n ~ species, data = rts[(rts$sample.type %in% organ), ])
 
 
 ## ----eval=FALSE----------------------------------------------------------
-#  install.packages("devtools")
-#  devtools::install_github("troyhill/NitrogenUptake2016", build_vignettes = TRUE)
-#  library("NitrogenUptake2016")
+#  install.packages("NitrogenUptake2016")
+#  library(NitrogenUptake2016)
 
 ## ----eval=FALSE----------------------------------------------------------
 #  ?allometry
@@ -757,7 +756,7 @@ t.test(tot_n ~ species, data = rts[(rts$sample.type %in% organ), ])
 #  ?dea
 
 ## ----eval=FALSE----------------------------------------------------------
-#  vignette("JEMBE", package = "NitrogenUptake2016")
+#  vignette(topic = "JEMBE", package = "NitrogenUptake2016")
 
 ## ----Figure 1 (Data In Brief), fig.width = 6, fig.height = 4, echo=FALSE----
 # Figure 1 from Hill et al. (Data In Brief) - predicted vs obs biomass ---------------------------------------

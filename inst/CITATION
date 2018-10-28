@@ -1,8 +1,10 @@
 bibentry(
          bibtype  = "Article",
          journal  = "Data In Brief",
-         title    = "Data and source code from: Nitrogen uptake and allocation estimates for Spartina alterniflora and Distichlis spicata",
-         doi      = c("10.5281/zenodo.1226378"),
+         title    = "Nitrogen and carbon concentrations and stable isotope ratios: data from a ^15^N tracer study in short-form _Spartina alterniflora_ and _Distichlis spicata_",
+         doi      = c("10.1016/j.dib.2018.09.133"),
+         volume   = 21,
+         pages    = c("466-472"),
          author   = c(
           person(c("Troy", "D."), "Hill", role = c("aut", "cre"), email = "hill.troy@gmail.com"),
           person(c("Nathalie", "R."), "Sommer", role = "aut"),
@@ -12,6 +14,6 @@ bibentry(
          ),
          organization = "",
          address      = "Narragansett, RI",
-         year         = "2017",
+         year         = 2018,
          url          = "https://github.com/troyhill/NitrogenUptake2016"
 )
